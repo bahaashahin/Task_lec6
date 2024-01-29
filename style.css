@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0px;
+}
+body {
+    font-size: 15pt;
+    background-color: #eee;
+    font-family: "Ubuntu", sans-serif;
+}
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: #0D1B2A;
+  position: fixed;
+  z-index: 2;
+}
+.img{
+  /* margin-top: 5px; */
+  /* margin-left: 15px; */
+}
+.img img{
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.links{
+  float: right;
+  margin-top: -40px;
+  margin-right: 30px;
+}
+.links a{
+  text-decoration: none;
+  color: #eee;
+  margin: 20px;
+  font-weight: bold;
+}
+.links a:hover{
+  color: #E0E1DD;
+}
+.main{
+  width: 100%;
+  height: 800px;
+  background-image: url(over.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  text-align: center;
+}
+.main .overflow{
+ /* opacity: 0.8; */
+}
+.main p{
+  padding-top: 0;
+ width: 100%;
+ height: 100%;
+ background: black;
+ opacity: 0.6;
+}
+.text{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  /* margin-left: 300px; */
+  /* margin-right: 50%; */
+  margin-top: -450px;
+  color: #eee;
+}
+.text h3{
+  font-weight: 200px;
+}
+.text .btn1{
+  width: 100px;
+  height: 30px;
+  color: #eee;
+  background-color: #1B263B;
+  border: none;
+  margin: 20px;
+  border-radius: 10px;
+}
+.text .btn1:hover{
+  background: none;
+  border:3px solid #1B263B;
+  transition: all 0.2s ease;
+}
+.text .btn2{
+  width: 120px;
+  height: 30px;
+  color: #eee;
+  background-color: #415A77;
+  border: none;
+  border-radius: 10px;
+}
+.text .btn2:hover {
+  background: none;
+  border: 3px solid #415A77;
+  transition: all 0.2s ease;
+}
+.section2{
+  width: 100%;
+}
+.icons{
+  overflow: auto;
+  /* width: 100%; */
+  /* margin: auto; */
+  margin-left:50px;
+  margin-top: 100px;
+}
+.icons .ch1{
+  width: 250px;
+  height: 250px; 
+  border: 2px solid #778DA9;
+  border-radius: 5px;
+  float: left;
+  /* margin: 50px; */
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 20px; 
+}
+.ch1 i{
+  color: #415A77;
+  font-size: 40px;
+}
+.ch1 p
+{
+  color: #415A77;
+}
+.ch1 a{
+  text-decoration: none;
+  color: #415A77;
+  font-weight: 800;
+}
+.ch1 a:hover{
+  color: darkblue;
+}
